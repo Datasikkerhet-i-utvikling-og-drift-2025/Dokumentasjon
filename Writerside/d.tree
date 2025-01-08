@@ -3,8 +3,9 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="d"
-                 name="Dokumentasjon"
+                 name="Prosjekt Dokumentasjon: Datasikkerhet i Utvikling og Drift - Gruppe 1"
                  start-page="starter.md">
 
     <toc-element topic="starter.md"/>
+    <toc-element topic="Prosjektbeskrivelse.md"/>
 </instance-profile>
