@@ -106,12 +106,13 @@ Alt som ikke er nevnt i oppgaveteksten må dere ta egne valg om. Selv om det mul
 
 
 ## Prosjektserver
-Maskinene ligger på IP-adressene: 158.39.188.203 - 211:<br>
-**Gruppe 1:** 158.39.188.203<br>
-**Gruppe 2:** 158.39.188.204<br>
-**Gruppe 3:** 158.39.188.205<br>
-...<br>
-**Gruppe 9:** 158.39.188.211<br>
+Maskinene ligger på IP-adressene: 158.39.188.203 - 211:
+* **Gruppe 1:** 158.39.188.203
+* **Gruppe 2:** 158.39.188.204
+* **Gruppe 3:** 158.39.188.205
+* ...
+* **Gruppe 9:** 158.39.188.211
+
 (Kan endres underveis om noen grupper "tuller til" serveren)
 
 Man må være tilkoblet med VPN eller være fysisk på skolens nett for å få tilgang.  Serveren administreres via SSH (f.eks. [putty](https://www.putty.org/))
