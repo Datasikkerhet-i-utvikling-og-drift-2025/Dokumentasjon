@@ -6,6 +6,7 @@ I dette emnet skal det gjennomføres en større utviklingsprosjekt i grupper. Pr
 
 Prosjektoppgaven beskrives i dette dokumentet, men hver delinnlevering skal leveres i egne assignments/oppgaver.
 
+
 ## Gruppe
 1. Gruppestørrelsen er ideelt 5 personer. Så sant dette "går opp" med antall studenter i emnet, så er gruppestørrelsen ufravikelig.
 2. Før dere danner grupper, tenk over arbeidsinnsats, forkunnskaper, ambisjoner og ikke minst tidspunkt for arbeidsøkter. Forsøk å finne gruppemedlemmer som matcher på disse punktene. Hver gruppe bør ha ett medlem med litt Linux-erfaring.  Det er svært viktig at dere ikke bare danner første og beste gruppe, samt at dere avklarer litt forventninger og arbeidsinnsats hos evt. gruppemedlemmer dere ikke kjenner.
@@ -13,7 +14,6 @@ Prosjektoppgaven beskrives i dette dokumentet, men hver delinnlevering skal leve
 4. **Dere er alle ansvarlig for at gruppa fungerer, samt å si i fra <u>tidlig</u> om problemer.**
 5. Å ikke si i fra med EN GANG problemer oppstår eller ikke tillate noen å delta kan også gjøre at man ikke får godkjent prosjektet, selv om man faglig bidrar nok selv.
 6. Gruppe registreres under people (/personer)  og fanen "Project groups". Ikke registrer gruppe før dere er nok personer, og følg kronologisk rekkefølge i gruppenummerering.
-
 
 ## VIKTIG!
 > Følgende handlinger vil medføre at prosjektet underkjennes, og man IKKE får ta eksamen:
@@ -45,14 +45,15 @@ Prosjektoppgaven beskrives i dette dokumentet, men hver delinnlevering skal leve
 >
 > Elementer i grått kan nedprioriteres, det er imidlertid ønskelig at det i gjøres forsøk også på disse. Start imidlertid med elementer i sort. Selve strukturen i systemet og etter hvert "sikkerhetstankengangen" bør ta høyde for alle funksjonene. **<u>Mangler elementer i sort vil i utgangspunktet ikke oppgaven godkjennes.</u>**
 
-### En student skal:
 
+### En student skal:
 * **Kunne registrere seg ( navn, e-post,** studieretning og studiekull **)**
 * **Kunne logge inn**
 * Kunne bytte passord
 * Utføre "glemt passord"
 * **Kunne sende melding ang. et ønsket emne/fag, men forbli anonym (studentene kan velge fritt blant alle registrerte emner)**
 * Se evt. svar fra forelesere på tidligere sendte meldinger (trenger ikke håndtere lest/ulest)
+
 
 ### En foreleser skal:
 * **Kunne registrere seg (navn, e-post, bilde)**
@@ -65,13 +66,11 @@ Prosjektoppgaven beskrives i dette dokumentet, men hver delinnlevering skal leve
 
 
 ### En administrator skal:
-
 * Logge inn
 * Kunne finne ut hvem som har sendt en melding
 * Slette og endre studentbrukere og ansattbrukere
 * Slette meldinger og tilhørende svar
 * Se rapporterte meldinger (se neste seksjon)
-
 
 
 ### En gjestebruker (anonym/ikke innlogget) skal:
@@ -80,12 +79,12 @@ Prosjektoppgaven beskrives i dette dokumentet, men hver delinnlevering skal leve
 * **Kunne legge inn en kommentar på meldinger fra studentene.**
 * Dersom en foreleser eller student besøker den "åpne siden"  mens de er innlogget, skal en handlinger knyttes til brukeren.
 
-### App:
 
+### App:
 * I tillegg til en nettside skal det også utvikles en mobilapp for studenter som har de samme mulighetene som nettsiden for innlogget student, unntatt glemt passord og passordbytte.
 * **<u>For å skalere ned prosjektet litt, så trenger dere ikke lage selve mobilappen, kun API som den tenkte appen skal benytte.</u>**
 * **Det skal lages et URL-basert API på serveren, og dokumenteres hvordan dette benyttes. Denne dokumentasjonen skal ligge på http://ip-adresse/stegX/api (X er da 1 eller 2, se under)**
-* Lages en app, skal det være mulig å laste ned Android-appen  (apk-fil) via http://ip-adresse/stegX/app (X er da 1 eller 2, se under)Links to an external site.
+* Lages en app, skal det være mulig å laste ned Android-appen  (apk-fil) via http://ip-adresse/stegX/app (X er da 1 eller 2, se under).
 
 En melding skal altså være knyttet til en student i systemet, men foreleser/gjester skal ikke vite eller kunne finne ut hvem det er som har sendt meldingen.
 
@@ -128,6 +127,7 @@ Root-brukeren heter "datasikkerhet" passord får dere ved å kontakte foreleser.
 > **NB! Når dere senere i emnet skal aktivere brannmur, sørg for å være HEEEEEEEEELT sikker på at port 22 (SSH) er åpen i konfigurasjonen til brannmuren før brannmuren aktiveres.**
 {style="warning"}
 
+
 ## Steg 1
 Gruppen skal i løpet av en intensiv periode i starten av emnet utvikle første versjon av prosjektet. Det er <u>svært dårlig tid</u>, noe som skal simulere hvordan sikkerhet nedprioriteres også ute i bedrifter pga. knappe ressurser (tid, ansatte, penger, etc). Dere må komme i mål med minimumsløsningen, så her gjelder det å fordele oppgaver og jobbe "hver for seg" på sin del. ( i motsetning til resten av prosjektet)
 
@@ -159,6 +159,7 @@ Forsøk å finne flest mulig svakheter i <u>andre gruppers</u> prosjekt basert h
 > NB! Dere får IKKE gjøre angrep som medfører at serveren blir utilgjengelig via SSH med brukernavn/passord som studentgruppen har.
 {style="warning"}
 
+
 ## Steg 1.2 - rett før steg 2 starter
 Forsøk å finne flest mulig svakheter i andre gruppers prosjekt basert hva dere kan om sikkerhet nå (dvs. etter en del forelesninger). Feilene og svakhetene dere finner skal dere dokumentere i en "rapport" som leveres inn. Rapportene vil bli publisert i canvas av foreleser for alle grupper.   Merk at det her med "rapport" menes et enkelt tekstdokument. Innholdet er viktigere en utforming og omfang.
 
@@ -176,8 +177,8 @@ Ha også fokus på at dere skal <u>logge relevante hendelser</u>.
 
 Prosjektet **<u>SKAL</u>** ligge på adressen http://ip-adresse/steg2.
 
-### Prosessen i dette steget skal være basert på det dere burde ha gjort i steg 1. Dere skal altså i tillegg lage:
 
+### Prosessen i dette steget skal være basert på det dere burde ha gjort i steg 1. Dere skal altså i tillegg lage:
 * Et veldig enkelt system for Risk Management Framework (f.eks. excel) - Dette bør være det første dere gjør, og bør gjøres sammen hele gruppa (altså for å planlegge steg 2 før dere koder). Det er forstålig at et fullverdig RMF for hele prosjektet tar svært mye tid, så dere kan heller velge å fokusere på noen utvalgte deler og skalere ned omfanget litt. For egen læring er det bedre å gjøre noen deler bra/fullstendig enn å gjøre alt halvveis
 * Gjøre noen av de ulike stegene i sikker utvikling. Igjen kan dere fokusere på noen områder i stedet for å gjøre alt komplett (som kan bli for omfattende. Som minimum må dere ha med/gjort følgende (på noen områder):
   * Lage sikkerhetskrav og abuse cases - Også dette skal gjøres FØR dere går i gang med steg 2.  Beskriv heller færre krav godt, enn mange krav halvveis.
@@ -199,7 +200,6 @@ Dere skal dokumentere i en <u>kort rapport</u> de teoretiske punktene over, samt
 
 ## Steg 2.1
 ### Dette steget skal gjøres i to faser:
-
 a) Forsøk å finne flest mulig svakheter i andre <u>gruppers prosjekt</u>, uten å se på kildekoden/konfigurasjonsfilene til prosjektene
 
 b) Forsøk å finne ytterligere svakheter i <u>andre gruppers prosjekt</u>, ved å se på kildekoden/konfigurasjonsfilene til prosjektene
