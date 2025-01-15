@@ -10,4 +10,10 @@
         <description>Created after removal of "MD cheatsheet" from Dokumentasjon</description>
         <accepts>MD-cheatsheet.html</accepts>
     </rule>
+    <rule id="3669d0b2">
+        <description>Created after removal of "Starter" from Prosjekt Dokumentasjon: Datasikkerhet i Utvikling og Drift
+            - Gruppe 1
+        </description>
+        <accepts>starter.html</accepts>
+    </rule>
 </rules>
