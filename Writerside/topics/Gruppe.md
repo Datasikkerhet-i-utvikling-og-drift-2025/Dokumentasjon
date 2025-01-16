@@ -1,6 +1,7 @@
 # Gruppe
 
-## Gruppemedlemmer
+**Gruppemedlemmer:**
+: 
 * Ayub Abdirazak Ali
 * Jon Petter Harwiss
 * Mahamoud Ibrahim
@@ -9,32 +10,28 @@
 
 ## Ansvarsområder
 
-### Backend (PHP + Apache server, API, MySQL) 2 stk
-Ansvar:
+**Backend (2 stk)**
+: **Ansvar:**
 * Serveroppsett og serverlogikk
 * API
 * Database og backend integrasjon
 
-### Frontend (HTML, CSS, Figma?, Kotlin + Android Studio?)
-Ansvar:
+**Frontend**
+: **Ansvar:**
 * Nettside
 * Mobil app?
 * Wireframes?
 
-### Integrasjon- og testansvarlig
-Ansvar: 
+**Integrasjon- og testansvarlig**
+: **Ansvar:**
 * Sørge for at backend, frontend og API fungerer sammen
 * Utføre systemtesting / pentesting og dokumentere svakheter
-* Teste API-funksjonaliteten for mobilappen
-
-### Prosjektleder (MD, PlantUML)
-Ansvar:
-* Prosjektplanlegging samt sørge framdrift og at leveranser overholdes
 * Overvåke og evaluere loggfunksjoner
+* Teste API-funksjonaliteten for mobilappen
+ 
+**Prosjektleder**
+: **Ansvar:**
+* Prosjektplanlegging, sørge framdrift og at leveranser overholdes
 * Prosjekt dokumentasjon
 * Code review
-* Trusselmodellering, risikovurdering og abuse cases
-
-
-
 
